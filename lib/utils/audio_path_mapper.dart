@@ -14,7 +14,7 @@ class AudioPathMapper {
     // e.g. "F#" becomes "Fs"
     String safeNoteName = note.replaceAll('#', 's');
 
-    final fileName = "$safeNoteName$octave.mp3";
+    final fileName = "$safeNoteName$octave.ogg";
 
     return "assets/$folderName/$fileName";
   }
